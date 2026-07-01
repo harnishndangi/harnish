@@ -1,0 +1,9 @@
+{
+  "name": "@madhu/config-eslint",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-next": "^14.2.29"
+  }
+}
