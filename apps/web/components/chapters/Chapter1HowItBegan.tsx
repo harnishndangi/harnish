@@ -403,8 +403,8 @@ export default function Chapter1HowItBegan() {
             padding: "0 0.5rem",
           }}
         >
-          "Every great love story has a beginning — a heartbeat that changed everything.
-          Ours started the moment I saw you."
+          &quot;Every great love story has a beginning — a heartbeat that changed everything.
+          Ours started the moment I saw you.&quot;
         </p>
 
         {/* Polaroid photo strip */}
@@ -533,7 +533,7 @@ export default function Chapter1HowItBegan() {
           className="font-script"
           style={{ fontSize: "clamp(1.5rem, 4vw, 2.4rem)", color: "var(--cream)", lineHeight: 1.6, marginBottom: "1.5rem" }}
         >
-          "You walked into my life<br />and rearranged everything."
+          &quot;You walked into my life<br />and rearranged everything.&quot;
         </p>
         <div style={{ height: 1, background: "linear-gradient(90deg, transparent, var(--gold-light), transparent)", margin: "0 auto 1.5rem", maxWidth: 200 }} />
         <p className="font-serif" style={{ fontSize: "clamp(1rem, 2.5vw, 1.1rem)", color: "var(--blush-light)", fontStyle: "italic", lineHeight: 1.8 }}>
