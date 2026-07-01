@@ -153,13 +153,24 @@ export default function Chapter5Celebration() {
       `;
       container.appendChild(span);
 
+      const duration = 2.5 + Math.random() * 2;
+      const delay = Math.random() * 1.5;
+
       gsap.to(span, {
         y: -(window.innerHeight * (0.7 + Math.random() * 0.4)),
-        opacity: [0, 0.9, 0],
-        duration: 2.5 + Math.random() * 2,
-        delay: Math.random() * 1.5,
+        duration,
+        delay,
         ease: "power1.out",
         onComplete: () => span.remove(),
+      });
+
+      gsap.to(span, {
+        opacity: 0.9,
+        duration: duration / 2,
+        delay,
+        yoyo: true,
+        repeat: 1,
+        ease: "power1.inOut",
       });
     }
   }
