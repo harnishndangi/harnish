@@ -91,22 +91,22 @@ const MOMENTS = [
 
 // ── Floating petal positions ─────────────────────────────────────────────────
 const PETALS = [
-  { top: "8%",  left: "5%",  size: 22, delay: 0 },
+  { top: "8%", left: "5%", size: 22, delay: 0 },
   { top: "15%", left: "92%", size: 16, delay: 0.6 },
-  { top: "35%", left: "3%",  size: 18, delay: 1.2 },
+  { top: "35%", left: "3%", size: 18, delay: 1.2 },
   { top: "55%", left: "95%", size: 14, delay: 0.3 },
-  { top: "72%", left: "8%",  size: 20, delay: 0.9 },
+  { top: "72%", left: "8%", size: 20, delay: 0.9 },
   { top: "85%", left: "88%", size: 17, delay: 1.5 },
 ];
 
 export default function Chapter1HowItBegan() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const heroRef      = useRef<HTMLDivElement>(null);
-  const headingRef   = useRef<HTMLHeadingElement>(null);
-  const timelineRef  = useRef<HTMLDivElement>(null);
-  const lineRef      = useRef<HTMLDivElement>(null);
-  const momentRefs   = useRef<HTMLDivElement[]>([]);
-  const closingRef   = useRef<HTMLDivElement>(null);
+  const heroRef = useRef<HTMLDivElement>(null);
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const timelineRef = useRef<HTMLDivElement>(null);
+  const lineRef = useRef<HTMLDivElement>(null);
+  const momentRefs = useRef<HTMLDivElement[]>([]);
+  const closingRef = useRef<HTMLDivElement>(null);
 
   const [activeCard, setActiveCard] = useState<number | null>(null);
 
@@ -404,7 +404,7 @@ export default function Chapter1HowItBegan() {
           }}
         >
           &quot;Every great love story has a beginning — a heartbeat that changed everything.
-          Ours started the moment I saw you.&quot;
+          Ours started the moment I getting to understand you.&quot;
         </p>
 
         {/* Polaroid photo strip */}
